@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios'
 
 
 function validateEmail(email) {
@@ -37,8 +38,10 @@ const ContactForm = () => {
         }
     }
 
-    function handleSubmit(e) {
-        e.preventDefault()
+    function handleSubmit() {
+    
+        axios.post("/api/sendemail",formState)
+        setFormState({ name: '', email: '', message: '' })
     }
     return (
         <div className="row justify-content-md-center">

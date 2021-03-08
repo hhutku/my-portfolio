@@ -1,5 +1,6 @@
 import React from 'react'
 import {images} from '../../images/images'
+import './style.css'
 
 const ProjectCards = ({project}) => {
 

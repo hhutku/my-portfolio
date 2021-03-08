@@ -1,6 +1,6 @@
 import React from 'react'
 import {myPhoto} from '../../images/images'
-
+import './style.css'
 
 const index = () => {
     return (

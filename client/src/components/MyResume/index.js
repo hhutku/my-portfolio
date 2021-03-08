@@ -8,7 +8,7 @@ function MyResume() {
             <div className=" col-lg-10 col-md-6">
                 <h1 className="summary"> Professional Summary </h1>
                 <ul className="resume" >
-                    <h3 > View full <a href="https://hhutku.github.io/portfolio/assets/images/resumeNov.pdf" className="link"><span style={{color:"aqua"}}>resume</span></a>
+                    <h3 > View full <a href="https://hhutku.github.io/portfolio/assets/images/resumeNov.pdf" className="link"><span className="span">resume</span></a>
                     </h3>
                     <br />
                     <h3>Front-end Experience</h3>

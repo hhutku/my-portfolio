@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {myPhoto} from '../../images/images'
 
 
 const index = () => {
@@ -11,7 +11,7 @@ const index = () => {
       
       <div className="row justify-content-center paragraphs">
         <div className="col-10" id="about-section">
-            
+        <img style={{width:250}}className="mb-5" src={myPhoto} alt="Hasan Utku"/>  
         <p>
         Web Developer coming from a background in QA Automation. Skilled in Java, Selenium, MySQL, RestAPI,HTML, CSS, Javascript, jQuery, AJAX, NodeJS and more..
         </p>

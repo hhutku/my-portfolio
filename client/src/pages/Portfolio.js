@@ -1,20 +1,16 @@
 import React from 'react'
-import myworks from '../portfolio.json'
 import Projects from '../components/Projects'
+import myworks from '../portfolio.json'
+import ProjectCards from '../components/ProjectCards'
+
 const Portfolio = () => {
     return (
         <div>
-           <Projects>
-               
+            <Projects>
             {myworks.map((project) => (
-         <div> 
-         <p key={project.id} >{project.id} </p>
-         <p>{project.name} </p>
-         <p>{project.deploy} </p>
-         <p>{project.topics}</p>
-         </div>
+            //   <ProjectCards key={project.id} id={project.id} name={project.name}  deploy={project.deploy} topics={project.topics}/>
+            <ProjectCards project={project}  key={project.id}/>
             ))}
-            
             </Projects>
         </div>
     )

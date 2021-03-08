@@ -5,6 +5,7 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 import Footer from './components/Footer/index'
+import Nav from './components/Nav/index'
 
 import './App.css'
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="myApp">
       <Router>
         <div>
+        <Nav />
           <Switch>
             <Route exact path="/portfolio" >
               <Portfolio />

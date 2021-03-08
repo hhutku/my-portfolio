@@ -4,6 +4,7 @@ import Portfolio from './pages/Portfolio'
 import About from './pages/About'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import Footer from './components/Footer/index'
 
 import './App.css'
 function App() {
@@ -30,7 +31,7 @@ function App() {
           </Switch>
         </div>
       </Router>
-
+      <Footer/>
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import MyResume from '../components/MyResume'
 
 const Resume = () => {
     return (
         <div>
-            MyResume
+           <MyResume/>
         </div>
     )
 }

@@ -1,0 +1,59 @@
+
+[
+    {
+    "id": 0,
+    "name": "Book Club",
+    "deploy": "https://postnet-project-2.herokuapp.com/",
+    "topics": "express-js, handlebars-js, mysql, sequelize"
+    },
+    {
+    "id": 1,
+    "name": "Best Burger",
+    "deploy": "https://the-best-burger.herokuapp.com/",
+    "topics": "express-js, mysql, sequelize, handlebars-js"
+    },
+    {
+    "id": 2,
+    "name": "Employee Directory",
+    "deploy": "https://hhutku.github.io/employeeDirectory/",
+    "topics": "react, node.js, express.js,bootstrap                                    "
+    },
+    {
+    "id": 3,
+    "name": "Space Project",
+    "deploy": "https://hhutku.github.io/space/",
+    "topics": "jQuery,bulma, moment, Nasa & Wiki API"
+    },
+    {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "deploy": "https://hhutku.github.io/weather-dashboard/",
+    "topics": "HTML, CSS, API, Javascript"
+      },
+      {
+    "id": 5,
+    "name": "Day Planner",
+    "deploy": "https://hhutku.github.io/day-planner/",
+    "topics": "jQuery,Bootstrap,Moment"
+    },
+    {
+    "id": 6,
+    "name": "Quiz Challenge",
+    "deploy": "https://hhutku.github.io/code-quiz/",
+    "topics": "HTML, Javascript, CSS"
+    },
+    {
+    "id": 7,
+    "name": "Password Generator",
+    "deploy": "https://hhutku.github.io/pass-gen/",
+    "topics": "HTML, Javascript, CSS"
+    },
+    {
+      "id": 8,
+      "name": "Note-taker ",
+      "deploy": "https://app-note-take.herokuapp.com/",
+      "topics": "html,css,node.js, express.js                                    "
+      }
+
+    
+]

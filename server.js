@@ -39,6 +39,7 @@ async function main({name,email,message}) {
 
 app.post("/api/sendemail",(req,res)=>{
   main(req.body).catch(console.error);
+  
 
 })
 

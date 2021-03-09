@@ -15,33 +15,26 @@ const ContactForm = () => {
     const { name, email, message } = formState;
 
     function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-
-            if (!isValid) {
-                setErrorMessage('please enter a valid email');
-            } else {
-                setErrorMessage('');
-            }
-
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value })
-            console.log(formState)
-        }
+        setFormState({ ...formState, [e.target.name]: e.target.value })
+        console.log(formState)
     }
 
-    function handleSubmit() {
-    
-        axios.post("/api/sendemail",formState)
-        setFormState({ name: '', email: '', message: '' })
+    function handleSubmit(e) {
+        e.preventDefault()
+        const isValid = validateEmail(email)
+
+        if (name.length && isValid) {
+
+            axios.post("/api/sendemail", formState)
+                .then(
+                    setFormState({ name: '', email: '', message: '' }),
+                    setErrorMessage(``)
+                )
+        } else if (!name.length && isValid) {
+            console.log("valid degil")
+            setErrorMessage(`Please fill in "name".`)
+        } else if (name.length && !isValid)
+            setErrorMessage(`Please enter valid email`)
     }
     return (
         <div className="row justify-content-md-center">
@@ -51,15 +44,15 @@ const ContactForm = () => {
                 <form className="justify-content-center" id="contact-form" onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="name">name:</label>
-                        <input className="form-control" type="text" name="name"  defaultalue={name} onBlur={handleChange} />
+                        <input className="form-control" type="text" name="name" value={name} onChange={handleChange} />
                     </div>
                     <div >
                         <label htmlFor="email">email:</label>
-                        <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                        <input className="form-control" type="email" name="email" value={email} onChange={handleChange} />
                     </div>
                     <div>
                         <label htmlFor="message">message:</label>
-                        <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="10" />
+                        <textarea className="form-control" name="message" value={message} onChange={handleChange} rows="10" />
                     </div>
                     {errorMessage && (
                         <div>

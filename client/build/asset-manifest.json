@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28029bcb.chunk.css",
+    "main.js": "/static/js/main.fcbe697e.chunk.js",
+    "main.js.map": "/static/js/main.fcbe697e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.21e4bbbf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.21e4bbbf.js.map",
+    "static/js/2.2e567942.chunk.js": "/static/js/2.2e567942.chunk.js",
+    "static/js/2.2e567942.chunk.js.map": "/static/js/2.2e567942.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c0bc094ed83afd80e1247ef68b10da13.js": "/precache-manifest.c0bc094ed83afd80e1247ef68b10da13.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.28029bcb.chunk.css.map": "/static/css/main.28029bcb.chunk.css.map",
+    "static/js/2.2e567942.chunk.js.LICENSE.txt": "/static/js/2.2e567942.chunk.js.LICENSE.txt",
+    "static/media/bestBurger.jpg": "/static/media/bestBurger.d8823785.jpg",
+    "static/media/bookClub.jpg": "/static/media/bookClub.dc9b226e.jpg",
+    "static/media/employee.jpg": "/static/media/employee.ef878ddb.jpg",
+    "static/media/foto.png": "/static/media/foto.f3c892f5.png",
+    "static/media/note-taker.png": "/static/media/note-taker.c1304f94.png",
+    "static/media/passGen.png": "/static/media/passGen.624615dd.png",
+    "static/media/quizChallenge.png": "/static/media/quizChallenge.26df31c5.png",
+    "static/media/space.jpg": "/static/media/space.496d9fcf.jpg",
+    "static/media/weather.png": "/static/media/weather.11be83ed.png",
+    "static/media/workDaySchedular.png": "/static/media/workDaySchedular.6696c8ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21e4bbbf.js",
+    "static/js/2.2e567942.chunk.js",
+    "static/css/main.28029bcb.chunk.css",
+    "static/js/main.fcbe697e.chunk.js"
+  ]
+}

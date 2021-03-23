@@ -5,7 +5,7 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 import Footer from './components/Footer/index'
-import Nav from './components/Nav/index'
+import Nav from './components/Nav'
 import './App.css'
 
 

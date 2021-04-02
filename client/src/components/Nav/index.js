@@ -1,36 +1,31 @@
 import React from 'react'
 import './style.css'
+import { Navbar, Nav, NavItem,NavDropdown } from 'react-bootstrap';
 
 
 
 
 
-const Nav = () => {
-    return (
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a className="navbar-brand" href="/"><img src="https://img.icons8.com/color/48/000000/react-native.png" alt="react logo" className="icon"/></a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNav">
-    <ul className="navbar-nav">
-    <li className="nav-item">
-        <a className="nav-link" href="/about">About</a>
-      </li>
-      <li className="nav-item ">
-        <a className="nav-link" href="/portfolio">Portfolio </a>
-      </li>
+const MyNav = () => {
+  return (
+<Navbar className="navbar navbar-expand-lg navbar-dark bg-dark" expand="lg">
+  <Navbar.Brand href="/"> <a className="navbar-brand" href="/"><img src="https://img.icons8.com/color/48/000000/react-native.png" alt="react logo" className="icon"/></a></Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+    <Nav.Link href="/about">About</Nav.Link>
+    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+    <Nav.Link href="/contact">Contact</Nav.Link>
+     <Nav.Link href="/resume">Resume</Nav.Link>
      
-      <li className="nav-item">
-        <a className="nav-link" href="/contact">Contact</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link " href="/resume">Resume</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-    )
+      
+     
+ 
+    </Nav>
+
+  </Navbar.Collapse>
+</Navbar>
+  )
 }
 
-export default Nav
+export default MyNav

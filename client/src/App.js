@@ -29,7 +29,7 @@ function App() {
               <Contact />
             </Route>
             <Route >
-              <Portfolio />
+            <About />
             </Route>
           </Switch>
         </div>

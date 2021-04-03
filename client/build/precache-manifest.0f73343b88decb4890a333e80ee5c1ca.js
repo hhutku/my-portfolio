@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b240a2584d423a28dbc6728163192e8",
+    "revision": "edaa939cccf8df225311bed1e148a20b",
     "url": "/index.html"
   },
   {
-    "revision": "cd406637dffa662b0fac",
+    "revision": "874b6be9bdee7a6f8e96",
     "url": "/static/css/main.2220d88e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.22d07566.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd406637dffa662b0fac",
-    "url": "/static/js/main.6cb9e68f.chunk.js"
+    "revision": "874b6be9bdee7a6f8e96",
+    "url": "/static/js/main.6ce60a20.chunk.js"
   },
   {
     "revision": "e3473a344493b6ab086d",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/foto.f3c892f5.png"
   },
   {
-    "revision": "c1304f94b8f3aa5a953555d7b0228522",
-    "url": "/static/media/note-taker.c1304f94.png"
+    "revision": "69ffbaaef9df06a99da4634917b561c2",
+    "url": "/static/media/joinus.69ffbaae.jpg"
   },
   {
-    "revision": "624615ddfbc6b685fc2f756a9ab2848b",
-    "url": "/static/media/passGen.624615dd.png"
+    "revision": "c1304f94b8f3aa5a953555d7b0228522",
+    "url": "/static/media/note-taker.c1304f94.png"
   },
   {
     "revision": "26df31c59ba254730ed1c3ef920de562",

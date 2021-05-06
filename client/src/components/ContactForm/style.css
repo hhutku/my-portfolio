@@ -2,10 +2,12 @@
     color :rgb(143, 153, 153);
     width : 70%;
     /* margin-left:180px; */
-   
+    min-height: 75vh;
     
 }
 .contact{
-    font-size : 60px;
- 
+    margin-top:40px;
+    margin-bottom: 30px;
+    font-size : 30px;
+   
 }

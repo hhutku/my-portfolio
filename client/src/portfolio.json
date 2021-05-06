@@ -5,6 +5,7 @@
     "name": "Join-Us Outside",
     "deploy": "https://join-us-outside.herokuapp.com/",
     "github" :"https://github.com/epowelldev/p03-outdoor-activity-app",
+    "explain":"Join Us Outside is an app for organizing outdoor actities in PNW area.",
     "topics": "mongoose, express-js, react, node.js, material-ui, cloudinary"
     },
     {
@@ -12,34 +13,40 @@
     "name": "Book Club",
     "deploy": "https://postnet-project-2.herokuapp.com/",
     "github" :"https://github.com/ToMakPo/UWCB-Project-2",
+    "explain":"Humans need a place to organize book clubs, we decided to start creating that place. Not just another social media hub, but one tailored for book lovers.",
     "topics": "express-js, handlebars-js, mysql, sequelize"
     },
     {
-    "id": 2,
-    "name": "Best Burger",
-    "github" :"https://github.com/hhutku/best-burger",
-    "deploy": "https://the-best-burger.herokuapp.com/",
-    "topics": "express-js, mysql, sequelize, handlebars-js"
-    },
+      "id": 2,
+      "name": "Space Project",
+      "github" :"https://github.com/hhutku/space",
+      "deploy": "https://hhutku.github.io/space/",
+      "explain":"This application generates images and information based on the users search entry.",
+      "topics": "jQuery,bulma, moment, Nasa & Wiki API"
+      }
+,
     {
     "id": 3,
     "name": "Employee Directory",
     "github" :"https://github.com/hhutku/employeeDirectory",
     "deploy": "https://hhutku.github.io/employeeDirectory/",
+    "explain":"The React Employee Directory app allows for business professionals to access non-sensitive employee data and filter through them",
     "topics": "react, node.js, express.js,bootstrap                                    "
     },
     {
-    "id": 4,
-    "name": "Space Project",
-    "github" :"https://github.com/hhutku/space",
-    "deploy": "https://hhutku.github.io/space/",
-    "topics": "jQuery,bulma, moment, Nasa & Wiki API"
-    },
+      "id": 4,
+      "name": "Best Burger",
+      "github" :"https://github.com/hhutku/best-burger",
+      "deploy": "https://the-best-burger.herokuapp.com/",
+      "explain":"An app that follows the MVC design pattern.",
+      "topics": "express-js, mysql, sequelize, handlebars-js"
+      },
     {
     "id": 5,
     "name": "Weather Dashboard",
     "github" : "https://github.com/hhutku/weather-dashboard",
     "deploy": "https://hhutku.github.io/weather-dashboard/",
+    "explain":"This web application displays both current weather and the 5 day forecast of user-selected cities.",
     "topics": "HTML, CSS, API, Javascript"
       },
       {
@@ -47,6 +54,7 @@
     "name": "Day Planner",
     "github" : "https://github.com/hhutku/day-planner",
     "deploy": "https://hhutku.github.io/day-planner/",
+    "explain" :"This web application functions as an event planner for a day of work.",
     "topics": "jQuery,Bootstrap,Moment"
     },
     {
@@ -54,6 +62,7 @@
     "name": "Quiz Challenge",
     "github" : "https://github.com/hhutku/code-quiz",
     "deploy": "https://hhutku.github.io/code-quiz/",
+    "explain" :"Building a timed coding quiz with multiple-choice questions.",
     "topics": "HTML, Javascript, CSS"
     },
 
@@ -62,6 +71,7 @@
       "name": "Note-taker ",
       "github" : "https://github.com/hhutku/noteTaker",
       "deploy": "https://app-note-take.herokuapp.com/",
+      "explain" : "This is a node application that can be used to write, save, and delete notes.",
       "topics": "html,css,node.js, express.js                                    "
       }
 

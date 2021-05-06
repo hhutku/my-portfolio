@@ -10,6 +10,6 @@ import employee from './employee.jpg'
 import photo from './foto.png'
 
 export const myPhoto =[photo]
-export const images=[joinus,BookClub,BestBurger,employee,space,weather,workDaySchedular,quizChallenge,NoteTaker]
+export const images=[joinus,BookClub,space,employee,BestBurger,weather,workDaySchedular,quizChallenge,NoteTaker]
 
 

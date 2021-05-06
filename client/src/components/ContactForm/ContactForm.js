@@ -39,7 +39,8 @@ const ContactForm = () => {
     return (
         <div className="row justify-content-md-center">
             <section id="contact-section" className=" col-md-6">
-                <h1 className="contact">Contact to: Hasan Utku</h1>
+                {/* <h1 className="contact">hhutku.wa@gmail.com</h1> */}
+                <h1 className="contact"><a  href="mailto:hhutku.wa@gmail.com">hhutku.wa@gmail.com</a></h1>
                 <hr></hr>
                 <form className="justify-content-center" id="contact-form" onSubmit={handleSubmit}>
                     <div>

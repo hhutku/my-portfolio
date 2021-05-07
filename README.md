@@ -4,7 +4,7 @@
 
 Personal full stack development portfolio.
 
-**[Deployed Application](https://my-r-portfolio.herokuapp.com/)**
+**[Deployed Application](https://my-rt-portfolio.herokuapp.com/)**
   
 💻 Below is a screenshot of the application:
 

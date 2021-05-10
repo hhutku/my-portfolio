@@ -8,7 +8,7 @@ function MyResume() {
             <div className=" col-lg-10 col-md-6">
                 <h1 className="summary"> Professional Summary </h1>
                 <ul className="resume" >
-                    <h3 > View full <a href="https://drive.google.com/file/d/1OxFPmkzwP2Y7x9Odu_ydKbhowllMiZo_/view?usp=sharing" className="link"><span className="span">resume</span></a>
+                    <h3 > View full <a href="https://drive.google.com/file/d/1PSB2gKuFneDX9wkWcFnIe4WVhJtqmH59/view?usp=sharing" className="link"><span className="span">resume</span></a>
                     </h3>
                     <br />
                     <h3>Front-end Experience</h3>

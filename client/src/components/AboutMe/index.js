@@ -21,7 +21,7 @@ const index = () => {
       
    
       <p>
-            View full <a href="https://drive.google.com/file/d/1PSB2gKuFneDX9wkWcFnIe4WVhJtqmH59/view"className="link">resume</a>
+            View full <a href="https://drive.google.com/file/d/1T39CF2k4Pdc285kKt-eqgqd4VHHBMxaS/view?usp=sharing"className="link">resume</a>
 
           
     </p>

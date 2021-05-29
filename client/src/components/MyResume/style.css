@@ -1,6 +1,7 @@
 .resume {
     font-size : 18px;
     color :rgb(143, 153, 153);
+    
 }
 .summary{
     text-align :center;
@@ -18,4 +19,7 @@ h3{
 
 .span{
     color :rgb(95, 141, 141)
+}
+.height{
+height : 80vh
 }

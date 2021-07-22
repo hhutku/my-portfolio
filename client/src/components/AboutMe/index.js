@@ -34,7 +34,7 @@ const index = () => {
           <p>
             View full{' '}
             <a
-              href='https://drive.google.com/file/d/1T39CF2k4Pdc285kKt-eqgqd4VHHBMxaS/view?usp=sharing'
+              href='https://drive.google.com/file/d/1r-zmowiBqAOHo5Q3WlwOl7BnFir2uq0o/view?usp=sharing'
               className='link'
             >
               resume

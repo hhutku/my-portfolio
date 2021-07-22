@@ -8,9 +8,7 @@ const MyNav = () => {
   const location = useLocation()
   return (
     <Navbar className='navbar navbar-expand-lg navbar-dark bg-dark' expand='lg'>
-      <Link
-      
-      to='/'>
+      <Link to='/'>
         {' '}
         <a className='navbar-brand' href='/'>
           <img
@@ -23,19 +21,23 @@ const MyNav = () => {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='mr-auto'>
-        <Link
+          <Link
             to='/about'
             className={
-              location.pathname === '/about' ||  location.pathname === '/' ? 'nav-link active' : 'nav-link'
+              location.pathname === '/about' || location.pathname === '/'
+                ? 'nav-link active'
+                : 'nav-link'
             }
           >
             About
           </Link>
-         
+
           <Link
             to='/portfolio'
             className={
-              location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'
+              location.pathname === '/portfolio'
+                ? 'nav-link active'
+                : 'nav-link'
             }
           >
             Portfolio

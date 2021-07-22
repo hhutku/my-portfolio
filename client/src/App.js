@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import React from 'react'
 import Portfolio from './pages/Portfolio'
 import About from './pages/About'
@@ -8,35 +8,34 @@ import Footer from './components/Footer/index'
 import Nav from './components/Nav'
 import './App.css'
 
-
 function App() {
   return (
-    <div className="myApp">
+    <div className='myApp'>
       <Router>
         <div>
-        <Nav />
+          <Nav />
           <Switch>
-            <Route exact path="/portfolio" >
+            <Route exact path='/portfolio'>
               <Portfolio />
             </Route>
-            <Route exact path="/about">
+            <Route exact path='/about'>
               <About />
             </Route>
-            <Route exact path="/resume">
+            <Route exact path='/resume'>
               <Resume />
             </Route>
-            <Route exact path="/contact">
+            <Route exact path='/contact'>
               <Contact />
             </Route>
-            <Route >
-            <About />
+            <Route>
+              <About />
             </Route>
           </Switch>
         </div>
       </Router>
-      <Footer/>
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
